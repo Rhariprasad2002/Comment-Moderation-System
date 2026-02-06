@@ -56,4 +56,19 @@ To build a supervised ML-based text classification system that categorizes user 
 ---
 
 ## 🛠️ Project Structure
-
+comment_moderation_ml/
+│
+├── data/
+│ ├── spam.csv
+│ └── data.csv
+│
+├── models/
+│ ├── spam_model.pkl
+│ ├── spam_vectorizer.pkl
+│ ├── toxic_model.pkl
+│ └── toxic_vectorizer.pkl
+│
+├── train_spam.py
+├── train_toxic.py
+├── app.py
+├── requirements.txt
